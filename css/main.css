@@ -13,13 +13,8 @@ body {
     margin: 20px;
 }
 header {
-    /*height: 300px;*/
-    /*background: url(../img/official_header.png);*/
-    /*background-position: center center;*/
-    /*background-repeat: no-repeat;*/
-    /*background-size: cover;*/
-
-
+    background-color: #e6f0ff;
+    opacity: .9;
 }
 h1, p.subtitle {
     text-align: center;
@@ -41,14 +36,55 @@ h1, p.subtitle {
     margin: 50px;
     width: auto;
 }
+#social {
+    position: fixed;
+    right: 0;
+    top: 300px;
+    padding: 5px;
+    width: 160px;
+    margin: 5px;
+    background-color: #a6c9ff;
+
+}
+
+#social a.fab:hover {
+    background-color: blue;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
 
 
+.video-style {
+    padding: 20px;
+    width: auto;
+    margin-left: 10px;
+    margin-right: 200px;
+    background-color: #f5eff5;
+    opacity: .9;
+
+}
+.video-download-style {
+    width: 300px;
+
+}
+.listen-style {
+    width: auto;
+
+}
+
+.about-style {
+    width: auto;
+    margin-left: 10px;
+    margin-right: 200px;
+    background-color: #e6f0ff
+}
 .weybec-people div {
     float:left;
-    padding: 5px 5px;
+    padding: 10px 10px;
     margin: 0 5px;
-
-    background: deepskyblue;
+    background: #a6c9ff;
     text-align: center;
 
 }
@@ -56,6 +92,7 @@ h1, p.subtitle {
 .weybec-people div img {
     width: 250px;
     height: 250px;
+    margin: 10px;
 }
 
 div.weybec-people:after {
@@ -63,11 +100,8 @@ div.weybec-people:after {
     display: block;
     clear: both;
 }
+.copyright {
+    /*float: right;*/
+    width: 300px;
 
-#social {
-    float: right;
-    margin: auto 20px;
-    padding: 10px;
-    width: 25%;
-    background-color: #a6c9ff;
 }

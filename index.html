@@ -9,6 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- TODO: Make a favicon that better represents the page. -->
         <link rel="shortcut icon" href="favicon.ico">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
         <link rel="stylesheet" href="css/main.css">
     </head>
 
@@ -37,73 +38,83 @@
                  that could help you make a more interactive design. -->
             <h2>Share</h2>
             <ul class="social-links">
-                <li class="twitter"><a href="http://twitter.com">Twitter</a></li>
-                <li class="facebook"><a href="http://facebook.com">Facebook</a></li>
-                <li class="instagram"><a href="http://instagram.com">Instagram</a></li>
+                <li><a class="fab fa-twitter" href="http://twitter.com"></a></li>
+                <li><a class="fab fa-facebook" href="http://facebook.com"></a></li>
+                <li><a class="fab fa-pinterest" href="http://pinterest.com"></a></li>
             </ul>
         </aside>
 
         <section id="watch">
-            <h2>Watch</h2>
-            <video controls>
-                <source src="media/video/monkaa_1080p.webm" type="video/webm">
-                <source src="media/video/monkaa_1080p.mp4" type="video/mp4">
-                <p>Your browser does not support HTML5 Video.</p>
-            </video>
-            <!-- TODO: Style an elegant download link to download the video. -->
-            <h3>Download the video</h3>
-            <p>
+
+            <div class="video-style">
+                <h2>Watch</h2>
+                <video controls>
+                    <source src="media/video/monkaa_1080p.webm" type="video/webm">
+                    <source src="media/video/monkaa_1080p.mp4" type="video/mp4">
+                    <p>Your browser does not support HTML5 Video.</p>
+                </video>
+            </div>
+            <div class="video-download-style">
+                <h3>Download the video</h3>
+                <p>
                 Click below to download either MP4 or WEBM versions of this video.
                 <br>
                 <a class="download-button" href="media/video/monkaa_1080p.mp4">.MP4 Version</a>
                 <a class="download-button" href="media/video/monkaa_1080p.webm">.WEBM Version</a>
-            </p>
+                </p>
+            </div>
         </section>
 
         <section id="listen">
-            <h2>Listen</h2>
-            <audio controls>
-                <source src="media/audio/monkaa_soundtrack.mp3" type="audio/mp3">
-                <p>Your browser does not support HTML5 audio playback.</p>
-            </audio>
-            <!-- TODO: Style an elegant download link to download the audio. -->
-            <p>
-                <a class="download-button" href="media/audio/monkaa_soundtrack.mp3">Download as MP3</a>
-            </p>
+            <div class="listen-style">
+                <h2>Listen</h2>
+                <audio controls>
+                    <source src="media/audio/monkaa_soundtrack.mp3" type="audio/mp3">
+                    <p>Your browser does not support HTML5 audio playback.</p>
+                </audio>
+                <!-- TODO: Style an elegant download link to download the audio. -->
+                <p>
+                    <a class="download-button" href="media/audio/monkaa_soundtrack.mp3">Download as MP3</a>
+                </p>
+            </div>
         </section>
 
         <section id="about">
             <!-- TODO: Style this text so it is comfortable to read and nice
                  to look at. Style the "lead" paragraph to be more eye-catching
                  so that text stands out. -->
-            <h2>About</h2>
-            <p class="lead">Monkaa is a blue-furred, pink-faced monkey who consumes a crystallized meteorite, making him invincibly strong and too hot to handle. Exploring his new superpowers, Monkaa zooms through an entire universe. </p>
+            <div class="about-style">
+                <h2>About</h2>
+                <p class="lead">Monkaa is a blue-furred, pink-faced monkey who consumes a crystallized meteorite, making him invincibly strong and too hot to handle. Exploring his new superpowers, Monkaa zooms through an entire universe.                 </p>
 
-            <div class="weybec-people">
-                <div>
-                    <img class="headshot" src="img/weybec/pratik_solanki.jpg" alt="Pratik Solanki headshot"><br>
-                    Pratik Solanki<br>
-                    Co-Founder
+                <div class="weybec-people">
+                    <div>
+                        <img class="headshot" src="img/weybec/pratik_solanki.jpg" alt="Pratik Solanki headshot"><br>
+                        Pratik Solanki<br>
+                        Co-Founder
+                    </div>
+                    <div>
+                        <img class="headshot" src="img/weybec/Nita-ravalji1.jpg" alt="Nita Ravalji headshot"><br>
+                        Nita Ravalji<br>
+                        Co-Founder
+                    </div>
+                    <div>
+                        <img class="headshot" src="img/weybec/niyal_parmar.jpg" alt="Niyal Parmar headshot"><br>
+                        Niyal Parmar<br>
+                        Co-Founder
+                    </div>
                 </div>
-                <div>
-                    <img class="headshot" src="img/weybec/Nita-ravalji1.jpg" alt="Nita Ravalji headshot"><br>
-                    Nita Ravalji<br>
-                    Co-Founder
-                </div>
-                <div>
-                    <img class="headshot" src="img/weybec/niyal_parmar.jpg" alt="Niyal Parmar headshot"><br>
-                    Niyal Parmar<br>
-                    Co-Founder
-                </div>
+
+                <p>Monkaa is produced by <a href="http://www.weybec.com/">Weybec</a>, an animation studio located in Mumbai, India and founded by Pratik Solanki, Nita Ravalji and Niyal Parmar.</p>
+
+                <p>Project Monkaa is a 5-minute short animated movie, entirely made with Blender and GIMP and other Free/Open Software programs. It has been released as an Open Movie, with all production files and tutorials available on <a href="https://cloud.blender.org/open-movie/monkaa/">Blender Cloud</a> under a CC-BY license, as well as on a DVD available in the <a href="http://www.blender3d.org/e-shop/">Blender Store</a>.</p>
             </div>
-
-            <p>Monkaa is produced by <a href="http://www.weybec.com/">Weybec</a>, an animation studio located in Mumbai, India and founded by Pratik Solanki, Nita Ravalji and Niyal Parmar.</p>
-
-            <p>Project Monkaa is a 5-minute short animated movie, entirely made with Blender and GIMP and other Free/Open Software programs. It has been released as an Open Movie, with all production files and tutorials available on <a href="https://cloud.blender.org/open-movie/monkaa/">Blender Cloud</a> under a CC-BY license, as well as on a DVD available in the <a href="http://www.blender3d.org/e-shop/">Blender Store</a>.</p>
         </section>
 
         <footer>
-            <p>This page was created and designed by WEBDEV BEV in 2015. <i>Monkaa</i> was created by <a href="http://www.weybec.com/">Weybec</a> and is used here under a CC-BY license.</p>
+            <div class="copyright">
+                <p>This page was created and designed by WEBDEV BEV in 2015. <i>Monkaa</i> was created by <a href="http://www.weybec.com/">Weybec</a> and is used here under a CC-BY license.</p>
+            </div>
             <nav>
                 <ul class="main-nav">
                     <li><a href="#watch">Watch</a></li>

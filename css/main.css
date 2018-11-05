@@ -8,6 +8,7 @@
  html {
      margin: 0;
      padding: 0;
+     font-family: Monaco, monospace;
  }
 body {
     margin: 20px;
@@ -36,11 +37,13 @@ h1, p.subtitle {
     margin: 50px;
     width: auto;
 }
-#social {
+
+
+aside {
     position: fixed;
     right: 0;
     top: 300px;
-    padding: 5px;
+    padding: 10px;
     width: 160px;
     margin: 5px;
     background-color: #a6c9ff;
@@ -50,12 +53,25 @@ h1, p.subtitle {
 #social a.fab:hover {
     background-color: blue;
 }
+#social a.fab {
+    width: 20px;
+    padding: 5px;
+
+}
 .fa-twitter {
-    background: #55ACEE;
+    color: white;
+}
+.fa-facebook {
+    color: darkblue;
+}
+
+.fa-pinterest {
     color: white;
 }
 
-
+.social-links ul a {
+    list-style-type: none;
+}
 .video-style {
     padding: 20px;
     width: auto;
@@ -90,8 +106,8 @@ h1, p.subtitle {
 }
 
 .weybec-people div img {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     margin: 10px;
 }
 
@@ -103,5 +119,8 @@ div.weybec-people:after {
 .copyright {
     /*float: right;*/
     width: 300px;
+    padding: 5px;
+    background-color: #f5eff5;
+    border: 2px #d8c0d8 solid;
 
 }

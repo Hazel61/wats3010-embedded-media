@@ -24,7 +24,6 @@ h1, p.subtitle {
 }
 .subtitle {
     font-size: 20px;
-
 }
 .main-nav {
     background: thistle;
@@ -45,7 +44,6 @@ aside {
     width: 160px;
     margin: 5px;
     background-color: #a6c9ff;
-
 }
 #social a.fab:hover {
     background-color: blue;
@@ -53,7 +51,6 @@ aside {
 #social a.fab {
     width: 20px;
     padding: 5px;
-
 }
 .fa-twitter {
     color: white;
@@ -65,7 +62,6 @@ aside {
 .fa-pinterest {
     color: white;
 }
-
 .social-links ul a {
     list-style-type: none;
 }
@@ -76,14 +72,12 @@ aside {
     margin-right: 200px;
     background-color: #f5eff5;
     opacity: .9;
-
 }
 .video-style:after {
     content: "";
     display: block;
     clear: both;
 }
-
 .video-download-style {
     width: 300px;
     /*height: 200px;*/
@@ -92,7 +86,6 @@ aside {
     margin-left: 20px;
     padding: 5px;
     display: inline-block;
-
 }
 .listen-style {
     width: 300px;
@@ -102,25 +95,21 @@ aside {
     padding: 5px;
     display: inline-block;
 }
-
 #listen:before, #listen:after {
     content: "";
     display: table;
 }
-
 #listen:after {
     clear: both;
 }
-
 .class {
     clear: both;
 }
-
 .about-style {
     width: auto;
     margin-left: 10px;
     margin-right: 200px;
-    background-color: #e6f0ff
+    background-color: #e6f0ff;
     padding: 10px;
 }
 .weybec-people div {
@@ -130,7 +119,6 @@ aside {
     background: #a6c9ff;
     text-align: center;
     border-radius: 5%;
-
 }
 
 .weybec-people div img {
@@ -138,7 +126,6 @@ aside {
     height: 300px;
     margin: 10px;
 }
-
 div.weybec-people:after {
     content: "";
     display: block;
@@ -150,5 +137,4 @@ div.weybec-people:after {
     padding: 5px;
     background-color: #f5eff5;
     border: 2px #d8c0d8 solid;
-
 }
